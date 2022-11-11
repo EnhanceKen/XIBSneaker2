@@ -8,21 +8,47 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--My Second View Controller-->
         <scene sceneID="3IS-My-m7J">
             <objects>
-                <viewController id="qIh-W9-cxR" sceneMemberID="viewController">
+                <viewController id="qIh-W9-cxR" customClass="mySecondViewController" customModule="SneakerCollectionView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JIv-Ut-h1A">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x8m-Xe-Sfc">
+                                <rect key="frame" x="16" y="530" width="358" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M1J-GI-LqH">
+                                <rect key="frame" x="45" y="322" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="3eG-Sb-hk0"/>
+                                    <constraint firstAttribute="width" constant="300" id="lt7-p6-5tJ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="PEt-XK-Fpm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="M1J-GI-LqH" firstAttribute="centerY" secondItem="JIv-Ut-h1A" secondAttribute="centerY" id="4Ny-wS-neb"/>
+                            <constraint firstItem="x8m-Xe-Sfc" firstAttribute="leading" secondItem="JIv-Ut-h1A" secondAttribute="leadingMargin" id="6Zt-et-AZF"/>
+                            <constraint firstItem="x8m-Xe-Sfc" firstAttribute="centerX" secondItem="M1J-GI-LqH" secondAttribute="centerX" id="akw-su-xmR"/>
+                            <constraint firstItem="x8m-Xe-Sfc" firstAttribute="top" secondItem="M1J-GI-LqH" secondAttribute="bottom" constant="8" id="egb-rQ-lyJ"/>
+                            <constraint firstItem="M1J-GI-LqH" firstAttribute="centerX" secondItem="JIv-Ut-h1A" secondAttribute="centerX" id="jC2-Rs-QmT"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0jC-AG-Twr"/>
+                    <connections>
+                        <outlet property="myImage" destination="M1J-GI-LqH" id="1EF-u0-EyO"/>
+                        <outlet property="myLabel" destination="x8m-Xe-Sfc" id="ku9-ki-WwL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wcx-6I-6tV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="957" y="-2"/>
+            <point key="canvasLocation" x="956.92307692307691" y="-2.1327014218009479"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ww1-my-9Rn">

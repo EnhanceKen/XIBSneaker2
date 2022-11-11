@@ -13,9 +13,9 @@
 		02A10574291446E50091A000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A10573291446E50091A000 /* Assets.xcassets */; };
 		02A10577291446E50091A000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02A10575291446E50091A000 /* LaunchScreen.storyboard */; };
 		02A10581291448BA0091A000 /* ShoeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A10580291448BA0091A000 /* ShoeTableViewController.swift */; };
-		02A105842914911A0091A000 /* SneakerStoryBoardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A105832914911A0091A000 /* SneakerStoryBoardTableViewCell.swift */; };
 		02A10587291585520091A000 /* SneakerXIBTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A10585291585520091A000 /* SneakerXIBTableViewCell.swift */; };
 		02A10588291585520091A000 /* SneakerXIBTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A10586291585520091A000 /* SneakerXIBTableViewCell.xib */; };
+		02B4FE19291DF6BE00DA33F0 /* mySecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4FE18291DF6BE00DA33F0 /* mySecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		02A10576291446E50091A000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02A10578291446E50091A000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02A10580291448BA0091A000 /* ShoeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoeTableViewController.swift; sourceTree = "<group>"; };
-		02A105832914911A0091A000 /* SneakerStoryBoardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerStoryBoardTableViewCell.swift; sourceTree = "<group>"; };
 		02A10585291585520091A000 /* SneakerXIBTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerXIBTableViewCell.swift; sourceTree = "<group>"; };
 		02A10586291585520091A000 /* SneakerXIBTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SneakerXIBTableViewCell.xib; sourceTree = "<group>"; };
+		02B4FE18291DF6BE00DA33F0 /* mySecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				02A1057E291448500091A000 /* TableViewSneakers */,
+				02A10570291446E30091A000 /* Main.storyboard */,
 				02A1056A291446E30091A000 /* AppDelegate.swift */,
 				02A1056C291446E30091A000 /* SceneDelegate.swift */,
-				02A10570291446E30091A000 /* Main.storyboard */,
 				02A10573291446E50091A000 /* Assets.xcassets */,
 				02A10575291446E50091A000 /* LaunchScreen.storyboard */,
 				02A10578291446E50091A000 /* Info.plist */,
@@ -77,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				02A10580291448BA0091A000 /* ShoeTableViewController.swift */,
+				02B4FE18291DF6BE00DA33F0 /* mySecondViewController.swift */,
 				02A1058229148FC00091A000 /* Cells */,
 			);
 			path = TableViewSneakers;
@@ -85,7 +86,6 @@
 		02A1058229148FC00091A000 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				02A105832914911A0091A000 /* SneakerStoryBoardTableViewCell.swift */,
 				02A10585291585520091A000 /* SneakerXIBTableViewCell.swift */,
 				02A10586291585520091A000 /* SneakerXIBTableViewCell.xib */,
 			);
@@ -164,11 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02A105842914911A0091A000 /* SneakerStoryBoardTableViewCell.swift in Sources */,
 				02A1056B291446E30091A000 /* AppDelegate.swift in Sources */,
 				02A10581291448BA0091A000 /* ShoeTableViewController.swift in Sources */,
 				02A10587291585520091A000 /* SneakerXIBTableViewCell.swift in Sources */,
 				02A1056D291446E30091A000 /* SceneDelegate.swift in Sources */,
+				02B4FE19291DF6BE00DA33F0 /* mySecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

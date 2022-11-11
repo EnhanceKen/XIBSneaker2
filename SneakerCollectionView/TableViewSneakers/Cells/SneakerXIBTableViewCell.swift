@@ -14,8 +14,8 @@ class SneakerXIBTableViewCell: UITableViewCell {
     @IBOutlet weak var topLabel: UILabel!
     @IBOutlet weak var bottomLabel: UILabel!
     
-    
-    
+
+        
     
     func configure(imageName: String, sneakerName: String){
         self.sneakerImageView.image = UIImage(named: imageName)
